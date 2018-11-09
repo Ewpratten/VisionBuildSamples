@@ -29,7 +29,7 @@ int main() {
 
   // This is the network port you want to stream the raw received image to
   // By rules, this has to be between 1180 and 1190, so 1185 is a good choice
-  int streamPort = 1185;
+  int streamPort = 1181;
 
   // This stores our reference to our mjpeg server for streaming the input image
   cs::MjpegServer inputStream("MJPEG Server", streamPort);
